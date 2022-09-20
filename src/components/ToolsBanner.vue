@@ -1,31 +1,35 @@
 <template>
-    <div class="tools">
-        <div class="tools-item">
-            <RouterLink to="/">
-                <span class="iconfont">&#xe62e;</span>
-                星球
-            </RouterLink>
-        </div>
-        <div class="tools-item"> 
-            <RouterLink to="/live">
-                <span class="iconfont">&#xe63c;</span>
-                动态
-            </RouterLink>
-        </div>
-           
-        <div class="tools-item">
-            <RouterLink to="/find">
-                <span class="iconfont">&#xe632;</span>
-                发现
-            </RouterLink>
-        </div>
-        <div class="tools-item">
-            <RouterLink to="/user">
-            <span class="iconfont">&#xe631;</span>
-            我
-            </RouterLink>
+    <div>
+       
+        <div class="tools">
+            <div class="tools-item">
+                <RouterLink to="/">
+                    <span class="iconfont">&#xe62e;</span>
+                    星球
+                </RouterLink>
+            </div>
+            <div class="tools-item"> 
+                <RouterLink to="/live">
+                    <span class="iconfont">&#xe63c;</span>
+                    动态
+                </RouterLink>
+            </div>
+            
+            <div class="tools-item">
+                <RouterLink to="/find">
+                    <span class="iconfont">&#xe632;</span>
+                    发现
+                </RouterLink>
+            </div>
+            <div class="tools-item">
+                <RouterLink to="/user">
+                <span class="iconfont">&#xe631;</span>
+                我
+                </RouterLink>
+            </div>
         </div>
     </div>
+    
 </template>
 
 <script>
@@ -62,19 +66,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    @font-face {
-        font-family: 'iconfont';
-        src: url('../assets/iconfont.ttf') format('truetype');
-    }
-    .iconfont {
-        font-family: "iconfont" !important;
-        font-size: 40px;
-        line-height: 40px;
-        display: block;
-        font-style: normal;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-    }
     
     .tools{
         a{

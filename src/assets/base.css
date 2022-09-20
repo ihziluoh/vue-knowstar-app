@@ -8,3 +8,17 @@ a{
   text-decoration: none;
   color: black;
 }
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('./iconfont.ttf') format('truetype');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 40px;
+  line-height: 40px;
+  display: block;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
