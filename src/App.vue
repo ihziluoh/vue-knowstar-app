@@ -1,11 +1,11 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import ToolsBanner from './components/ToolsBanner.vue'
 </script>
 
 <template>
   <div>
-    <header>
+    <!-- <header>
       <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
       <div class="wrapper">
@@ -16,9 +16,10 @@ import HelloWorld from './components/HelloWorld.vue'
           <RouterLink to="/about">About</RouterLink>
         </nav>
       </div>
-    </header>
+    </header> -->
 
     <RouterView />
+    <ToolsBanner/>
   </div>
 </template>
 
@@ -32,7 +33,6 @@ $color-main:red;
 .hello{
   color: $color-main;
 }
-
 
 .logo {
   display: block;
