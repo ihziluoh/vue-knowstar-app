@@ -8,6 +8,7 @@
 1. Vue 功能页面编写
 2. Scss 样式编写
 3. Vite 打包
-4. VsCode 编辑器
-5. Git 版本管理
+4. PotCss postcss-px-to-viewport 页面样式处理
+5. VsCode 编辑器
+6. Git 版本管理
 
