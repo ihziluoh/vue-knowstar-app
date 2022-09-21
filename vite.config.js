@@ -6,6 +6,7 @@ import pxtovw from "postcss-px-to-viewport";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base:"/m/",
   plugins: [vue()],
   css: {
     postcss: {

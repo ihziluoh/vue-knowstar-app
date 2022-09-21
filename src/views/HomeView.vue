@@ -25,6 +25,14 @@
     },
     data(){
       return {}
+    },created(){
+    
+
+      
+    },mounted(){
+      
+       
+
     }
   }
 // import TheWelcome from '../components/TheWelcome.vue'
